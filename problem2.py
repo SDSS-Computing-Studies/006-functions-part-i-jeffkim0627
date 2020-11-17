@@ -9,3 +9,10 @@ Note that the coordinates should be signed (positive or negative) floats
 """
 import math
 
+def distance():
+    a = float((x,y))
+    b = float((x1,y1))
+
+    ans = ((a[1]-b[1])**2 + (a[2]-b[2])**2)**(1/2)
+
+    return ans
